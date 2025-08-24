@@ -1,0 +1,21 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "./out/index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "hello": "gulp hello",
+    "gulp": "node --max-old-space-size=8192 ./node_modules/gulp/bin/gulp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^5.0.1"
+  }
+}

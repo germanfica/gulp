@@ -1,0 +1,34 @@
+# Utils
+output.txt
+CombineTypescriptFilesToOutput.ps1
+
+# Compiled output
+out/
+
+# Node
+node_modules/
+dist/
+coverage/
+.tmp/
+.nyc_output/
+
+# Env & local
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Editors
+.vscode/
+.idea/
+
+# Package managers
+pnpm-lock.yaml
+yarn.lock
